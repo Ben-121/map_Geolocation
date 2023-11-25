@@ -54,7 +54,7 @@ export default function App() {
   };
 
   const fetchLocationName = async (latitude, longitude, setName) => {
-    const apiKey = 'a72b916186msh64ee2a800850d3fp16f482jsnfcf10161d7c2';
+    const apiKey = '';
     const apiUrl = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=${apiKey}`;
 
     try {
